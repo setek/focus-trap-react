@@ -13,7 +13,8 @@
     "jest": "jest",
     "pretest": "npm run lint && npm run build",
     "test": "jest",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -58,7 +59,7 @@
     "react-dom": "^16.0.0"
   },
   "dependencies": {
-    "focus-trap": "^3.0.0"
+    "focus-trap": "^4.0.0"
   },
   "peerDependencies": {
     "react": "0.14.x || ^15.0.0 || ^16.0.0",
